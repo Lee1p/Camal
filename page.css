@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+  #myCarousel {
+    width: 90%;
+  }
+  .carousel-inner {
+    left: 0;
+  }
+  .brand {
+    margin-top: 60px;
+    font-size: 24px;
+  }
+  .button-wrapper {
+    margin-bottom: 30px;
+  }
+}
+body {
+  background-color: #7474744c;
+}
+#myCarousel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .carousel-inner {
+    display: flex;
+    left: 25%; /* 위치 */
+  }
+  .parent {
+    position: relative;
+  }
+  .brand {
+    text-align: center;
+    position: relative;
+    margin-top: 140px;
+    font-family: 'Special Elite', cursive;
+    font-size: 38px;
+  }
+  .button-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 130px; /* 버튼과 캐러셀 슬라이드 사이 간격 조정 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn {
+    margin: 10px 0;
+    background-color: transparent;
+    font-family: 'Special Elite', cursive;
+    border: 1px solid gray;
+    color: black;
+  }
+  .btn:hover,.btn:active {
+    background-color: gray;
+    border-color: gray;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+  footer p {
+    margin: 0;
+  }
